@@ -1,0 +1,28 @@
+:host {
+	.header {
+		align-items: center;
+		display: flex;
+		height: 6rem;
+		justify-content: space-between;
+
+		.logo {
+			height: 6rem;
+
+			img {
+				max-height: 100%;
+				max-width: 100%;
+			}
+		}
+
+		.navigation {
+			align-items: center;
+			display: flex;
+			justify-content: center;
+
+		}
+
+		.actions {
+			width: 10rem;
+		}
+	}
+}
