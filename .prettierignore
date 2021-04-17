@@ -1,0 +1,7 @@
+**/api
+**/node_modules
+**/libs
+**/bower_components
+**/dist
+/public
+*.min.js
