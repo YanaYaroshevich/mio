@@ -4,10 +4,12 @@ import {NgModule} from '@angular/core';
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {HeaderModule} from "./shared/components/header/header.module";
+import {MainComponent} from './pages/main/main.component';
+import {TopComponent} from './pages/main/top/top.component';
 
 @NgModule({
-	declarations: [AppComponent],
 	imports: [BrowserModule, AppRoutingModule, HeaderModule],
+	declarations: [AppComponent, MainComponent, TopComponent],
 	providers: [],
 	bootstrap: [AppComponent],
 })
