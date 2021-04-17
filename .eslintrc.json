@@ -39,7 +39,7 @@
 					"error",
 					{
 						"type": "element",
-						"prefix": ["FILL_ME"],
+						"prefix": ["mio"],
 						"style": "kebab-case"
 					}
 				],
@@ -47,7 +47,7 @@
 					"error",
 					{
 						"type": "attribute",
-						"prefix": ["FILL_ME"],
+						"prefix": ["mio"],
 						"style": "camelCase"
 					}
 				],
