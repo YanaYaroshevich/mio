@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+	height: 100%;
+	overflow: hidden !important;
+	width: 100%;
+	position: fixed; // <- block bounce on iPads (https://stackoverflow.com/a/29629214)
+}
+
+html {
+	font-size: 16px;
+	user-select: none;
+}
+
+body {
+	margin: 0;
+}
+
+
+.main-content-padding-odd {
+	padding-left: 17rem;
+	padding-right: 17rem;
+}
+
+.main-content-padding-even {
+	padding-left: 13rem;
+	padding-right: 13rem;
+}
