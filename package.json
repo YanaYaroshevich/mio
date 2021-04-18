@@ -11,11 +11,6 @@
 		"husky:prepare": "husky install"
 	},
 	"private": true,
-	"husky": {
-		"hooks": {
-			"pre-commit": "lint-staged --relative"
-		}
-	},
 	"lint-staged": {
 		"./src/**/*.{ts,js,html}": [
 			"eslint --fix"
