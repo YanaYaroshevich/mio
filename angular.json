@@ -16,6 +16,10 @@
 			"architect": {
 				"build": {
 					"builder": "@angular-devkit/build-angular:browser",
+					"allowedCommonJsDependencies": [
+						"rxjs",
+						"lodash"
+					],
 					"options": {
 						"outputPath": "dist/mio",
 						"index": "src/index.html",
