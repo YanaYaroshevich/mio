@@ -1,4 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'scss/responsive';
+
+* {
+	box-sizing: border-box;
+
+	&:after,
+	&:before {
+		box-sizing: border-box;
+	}
+}
 
 html,
 body {
@@ -14,9 +23,9 @@ html {
 }
 
 body {
+	font-family: Georgia, serif;
 	margin: 0;
 }
-
 
 .main-content-padding-odd {
 	padding-left: 17rem;

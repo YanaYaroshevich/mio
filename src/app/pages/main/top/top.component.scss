@@ -1,5 +1,19 @@
+@import 'vars/sizes';
+
 :host {
+	display: block;
+	height: calc(80vh - #{$header-height});
+
+	.top-container {
+		position: relative;
+		height: 100%;
+	}
+
 	.main-image {
+		background-image: url('../../../../assets/images/main.jpg');
+		background-position: center;
+		background-size: cover;
+		height: 100%;
 		width: 100%;
 	}
 

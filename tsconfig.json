@@ -11,7 +11,13 @@
 		"moduleResolution": "node",
 		"importHelpers": true,
 		"target": "es2015",
-		"lib": ["es2018", "dom"]
+		"lib": ["es2018", "dom"],
+		"paths": {
+			"@shared/*": ["app/shared/*"],
+			"@pages/*": ["app/pages/*"],
+			"@store/*": ["app/store/*"],
+			"@angular/*": ["../node_modules/@angular/*"]
+		}
 	},
 	"angularCompilerOptions": {
 		"fullTemplateTypeCheck": true,

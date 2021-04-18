@@ -1,8 +1,10 @@
+@import 'vars/sizes';
+
 :host {
 	.header {
 		align-items: center;
 		display: flex;
-		height: 5rem;
+		height: $header-height;
 		justify-content: space-between;
 
 		.logo {
@@ -18,7 +20,6 @@
 			align-items: center;
 			display: flex;
 			justify-content: center;
-
 		}
 
 		.actions {

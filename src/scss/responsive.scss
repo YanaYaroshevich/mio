@@ -1,0 +1,79 @@
+@import 'vars/responsive';
+
+/* Small screens ----------- */
+html {
+	font-size: 8px;
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: $ipad-min-device-width) and (max-device-width: $ipad-max-device-width) and (orientation: portrait) {
+	html {
+		font-size: 8px;
+	}
+}
+
+@media only screen and (min-device-width: $ipad-min-device-width) and (max-device-width: $ipad-max-device-width) and (orientation: landscape) {
+	html {
+		font-size: 9px;
+	}
+}
+
+@media only screen and (min-device-width: $ipad-pro-min-device-width) and (max-device-width: $ipad-pro-max-device-width) and (orientation: portrait) {
+	html {
+		font-size: 11px;
+	}
+}
+
+@media only screen and (min-device-width: $ipad-pro-min-device-width) and (max-device-width: $ipad-pro-min-device-width) and (orientation: landscape) {
+	html {
+		font-size: 12px;
+	}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: $laptop-min-width) {
+	html {
+		font-size: 9px;
+	}
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: $large-laptop-min-width) {
+	html {
+		font-size: 10px;
+	}
+}
+
+/*!* Large screens ----------- *!*/
+@media only screen and (min-width: $large-screen-min-width) {
+	html {
+		font-size: 11px;
+	}
+}
+
+/*!* HD screens ----------- *!*/
+@media only screen and (min-width: $wqhd-screen-min-width) {
+	html {
+		font-size: 14px;
+	}
+}
+
+/*!* Between HD and Ultra-HD screens ------- *!*/
+@media only screen and (min-width: $wqhd-to-ultra-hd-screen-min-width) {
+	html {
+		font-size: 17px;
+	}
+}
+
+/*!* Ultra-HD screens ----------- *!*/
+@media only screen and (min-width: $ultra-hd-screen-min-width) {
+	html {
+		font-size: 21px;
+	}
+}
+
+/*!* 5k screens ----------- *!*/
+@media only screen and (min-width: $screen-5k-min-width) {
+	html {
+		font-size: 28px;
+	}
+}
